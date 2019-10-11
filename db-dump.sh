@@ -20,7 +20,7 @@ db_name="wordpress"  ## Replace with your database name
 server_dump_location="/tmp/mysql-dump/"
 log_path="/tmp/script_log/"
 log_location="/tmp/script_log/db_dump.log"
-s3_bucket="s3://devopsagebucket"
+s3_bucket="s3://yourbucket"
 time_stamp="$(date +"%d-%b-%Y-%H_%M_%S")"
 
 
